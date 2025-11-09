@@ -3,6 +3,10 @@ Generates a chart of options premium using ThetaData.
 
 You'll need a pro level options subscription with [ThetaData](https://www.thetadata.net/).
 
+# Notes
+
+The code here is pretty messy. It's just an example of how to use ThetaData.
+
 # Install
 
 To install using `uv` in a test environment:
