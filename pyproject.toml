@@ -11,6 +11,7 @@ dependencies = [
     "pandas>=2.3.3",
     "plotly>=6.4.0",
     "thetadata-utils",
+    "yfinance>=0.2.66",
 ]
 
 [project.scripts]
