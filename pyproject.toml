@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "pandas>=2.3.3",
+    "thetadata-utils",
 ]
 
 [project.scripts]
@@ -17,3 +18,6 @@ options-premium-chart-td = "options_premium_chart_td:main"
 [build-system]
 requires = ["uv_build>=0.9.6,<0.10.0"]
 build-backend = "uv_build"
+
+[tool.uv.sources]
+thetadata-utils = { git = "https://github.com/dharmatech/thetadata-utils.py" }
