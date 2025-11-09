@@ -1,0 +1,4 @@
+
+from options_premium_chart_td.options_premium_chart import gen_options_premium_chart
+
+gen_options_premium_chart('GOOG', premium_threshold=500000)
